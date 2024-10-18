@@ -1,0 +1,360 @@
+<HorizontalScrollView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent" android:layout_height="wrap_content" >
+
+    <ScrollView android:id="@+id/sad"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent" >
+
+        <RelativeLayout android:id="@+id/content_container"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+
+
+            <RelativeLayout android:id="@+id/page_sad_ek1"
+                android:layout_marginTop="0dp"
+                android:layout_marginStart="0dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                >
+
+                <View
+                    android:id="@+id/_bg__sad_ek2"
+                    android:layout_width="500dp"
+                    android:layout_height="800dp"
+                    android:layout_marginStart="0dp"
+                    android:layout_marginTop="0dp"
+                    android:background="@drawable/sadui" />
+
+                <!--View   android:id="@+id/ellipse_1"
+                    android:background="@drawable/ellipse_1_shape"
+                    android:alpha="0.72000002861023"
+                    android:layout_marginStart="180dp"
+                    android:layout_marginTop="52dp"
+                    android:layout_width="321dp"
+                    android:layout_height="318dp" />
+
+                <View   android:id="@+id/ellipse_2"
+                    android:background="@drawable/ellipse_2_shape"
+                    android:alpha="0.93000000715256"
+                    android:layout_marginStart="-62dp"
+                    android:layout_marginTop="488dp"
+                    android:layout_width="321dp"
+                    android:layout_height="318dp" /-->
+
+
+                <TextView
+                    android:id="@+id/sad_ek3"
+                    android:layout_width="385dp"
+                    android:layout_height="82dp"
+                    android:layout_gravity="center_horizontal|center"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="25dp"
+                    android:fontFamily="@font/lobster"
+                    android:gravity="center"
+                    android:text="@string/sad_ek3_string"
+                    android:textColor="@color/sad_ek3_color"
+                    android:textSize="40sp" />
+
+                <RelativeLayout
+                    android:id="@+id/group_5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="68dp"
+                    android:layout_marginTop="111dp">
+
+
+                    <RelativeLayout
+                        android:id="@+id/group_2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="0dp">
+
+                        <ImageView
+                            android:id="@+id/rectangle_1"
+                            android:layout_width="72dp"
+                            android:layout_height="67dp"
+                            android:layout_marginStart="0dp"
+                            android:layout_marginTop="0dp"
+                            android:contentDescription="rectangle_1"
+                            android:src="@drawable/rectangle_1" />
+
+
+                        <RelativeLayout
+                            android:id="@+id/group_1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="88dp"
+                            android:layout_marginTop="16dp">
+
+                            <TextView
+                                android:id="@+id/cover_me_in_sunshine"
+                                android:layout_width="175dp"
+                                android:layout_height="27dp"
+                                android:layout_marginLeft="0dp"
+                                android:layout_marginTop="0dp"
+                                android:text="@string/cover_me_in_sunshine_string"
+                                android:textColor="@color/sad_ek3_color"
+                                android:textSize="14sp"
+                                android:textStyle="bold" />
+
+                            <TextView
+                                android:id="@+id/pink___willow_sage_hart"
+                                android:layout_width="136dp"
+                                android:layout_height="19dp"
+                                android:layout_marginLeft="0dp"
+                                android:layout_marginTop="20dp"
+                                android:text="@string/pink___willow_sage_hart_string"
+                                android:textColor="@color/sad_ek3_color" />
+
+                        </RelativeLayout>
+
+                    </RelativeLayout>
+
+
+                    <RelativeLayout
+                        android:id="@+id/group_3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="0dp"
+                        android:layout_marginTop="80dp">
+
+                        <View
+                            android:id="@+id/rectangle_1_ek1"
+                            android:layout_width="72dp"
+                            android:layout_height="67dp"
+                            android:layout_marginStart="0dp"
+                            android:layout_marginTop="0dp"
+                            android:background="@drawable/rectangle_1_ek1_shape" />
+
+
+                        <RelativeLayout
+                            android:id="@+id/group_1_ek1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="88dp"
+                            android:layout_marginTop="16dp">
+
+                            <TextView
+                                android:id="@+id/cover_me_in_sunshine_ek1"
+                                android:layout_width="175dp"
+                                android:layout_height="27dp"
+                                android:layout_marginLeft="0dp"
+                                android:layout_marginTop="0dp"
+                                android:text="@string/cover_me_in_sunshine_ek1_string"
+                                android:textColor="@color/sad_ek3_color"
+                                android:textSize="14sp"
+                                android:textStyle="bold" />
+
+                            <TextView
+                                android:id="@+id/pink___willow_sage_hart_ek1"
+                                android:layout_width="136dp"
+                                android:layout_height="19dp"
+                                android:layout_marginLeft="0dp"
+                                android:layout_marginTop="20dp"
+                                android:text="@string/pink___willow_sage_hart_ek1_string"
+                                android:textColor="@color/sad_ek3_color" />
+
+                        </RelativeLayout>
+
+
+                        <RelativeLayout
+                            android:id="@+id/group_2_ek1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="0dp"
+                            android:layout_marginTop="76dp">
+
+                            <View
+                                android:id="@+id/rectangle_1_ek2"
+                                android:layout_width="72dp"
+                                android:layout_height="67dp"
+                                android:layout_marginStart="0dp"
+                                android:layout_marginTop="0dp"
+                                android:background="@drawable/rectangle_1_ek2_shape" />
+
+
+                            <RelativeLayout
+                                android:id="@+id/group_1_ek2"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginStart="88dp"
+                                android:layout_marginTop="16dp">
+
+                                <TextView
+                                    android:id="@+id/cover_me_in_sunshine_ek2"
+                                    android:layout_width="175dp"
+                                    android:layout_height="27dp"
+                                    android:layout_marginLeft="0dp"
+                                    android:layout_marginTop="0dp"
+                                    android:text="@string/cover_me_in_sunshine_ek2_string"
+                                    android:textColor="@color/sad_ek3_color"
+                                    android:textSize="14sp"
+                                    android:textStyle="bold" />
+
+                                <TextView
+                                    android:id="@+id/pink___willow_sage_hart_ek2"
+                                    android:layout_width="136dp"
+                                    android:layout_height="19dp"
+                                    android:layout_marginLeft="0dp"
+                                    android:layout_marginTop="20dp"
+                                    android:text="@string/pink___willow_sage_hart_ek2_string"
+                                    android:textColor="@color/sad_ek3_color" />
+
+                            </RelativeLayout>
+
+
+                            <RelativeLayout
+                                android:id="@+id/group_2_ek2"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginStart="0dp"
+                                android:layout_marginTop="80dp">
+
+                                <View
+                                    android:id="@+id/rectangle_1_ek3"
+                                    android:layout_width="72dp"
+                                    android:layout_height="67dp"
+                                    android:layout_marginStart="0dp"
+                                    android:layout_marginTop="0dp"
+                                    android:background="@drawable/rectangle_1_ek3_shape" />
+
+
+                                <RelativeLayout
+                                    android:id="@+id/group_1_ek3"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginStart="88dp"
+                                    android:layout_marginTop="16dp">
+
+                                    <TextView
+                                        android:id="@+id/cover_me_in_sunshine_ek3"
+                                        android:layout_width="175dp"
+                                        android:layout_height="27dp"
+                                        android:layout_marginLeft="0dp"
+                                        android:layout_marginTop="0dp"
+                                        android:text="@string/cover_me_in_sunshine_ek3_string"
+                                        android:textColor="@color/sad_ek3_color"
+                                        android:textSize="14sp"
+                                        android:textStyle="bold" />
+
+                                    <TextView
+                                        android:id="@+id/pink___willow_sage_hart_ek3"
+                                        android:layout_width="136dp"
+                                        android:layout_height="19dp"
+                                        android:layout_marginLeft="0dp"
+                                        android:layout_marginTop="20dp"
+                                        android:text="@string/pink___willow_sage_hart_ek3_string"
+                                        android:textColor="@color/sad_ek3_color" />
+
+                                </RelativeLayout>
+
+
+                                <RelativeLayout
+                                    android:id="@+id/group_2_ek3"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginStart="0dp"
+                                    android:layout_marginTop="79dp">
+
+                                    <View
+                                        android:id="@+id/rectangle_1_ek4"
+                                        android:layout_width="72dp"
+                                        android:layout_height="67dp"
+                                        android:layout_marginStart="0dp"
+                                        android:layout_marginTop="0dp"
+                                        android:background="@drawable/rectangle_1_ek3_shape" />
+
+
+                                    <RelativeLayout
+                                        android:id="@+id/group_1_ek4"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginStart="88dp"
+                                        android:layout_marginTop="16dp">
+
+                                        <TextView
+                                            android:id="@+id/cover_me_in_sunshine_ek4"
+                                            android:layout_width="175dp"
+                                            android:layout_height="27dp"
+                                            android:layout_marginLeft="0dp"
+                                            android:layout_marginTop="0dp"
+                                            android:text="@string/cover_me_in_sunshine_ek4_string"
+                                            android:textColor="@color/sad_ek3_color"
+                                            android:textSize="14sp"
+                                            android:textStyle="bold" />
+
+                                        <TextView
+                                            android:id="@+id/pink___willow_sage_hart_ek4"
+                                            android:layout_width="136dp"
+                                            android:layout_height="19dp"
+                                            android:layout_marginLeft="0dp"
+                                            android:layout_marginTop="20dp"
+                                            android:text="@string/pink___willow_sage_hart_ek4_string"
+                                            android:textColor="@color/sad_ek3_color" />
+
+                                    </RelativeLayout>
+
+
+                                    <RelativeLayout
+                                        android:id="@+id/group_2_ek4"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginStart="0dp"
+                                        android:layout_marginTop="78dp">
+
+                                        <View
+                                            android:id="@+id/rectangle_1_ek5"
+                                            android:layout_width="72dp"
+                                            android:layout_height="67dp"
+                                            android:layout_marginStart="0dp"
+                                            android:layout_marginTop="0dp"
+                                            android:background="@drawable/rectangle_1_ek3_shape" />
+
+
+                                        <RelativeLayout
+                                            android:id="@+id/group_1_ek5"
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:layout_marginStart="88dp"
+                                            android:layout_marginTop="16dp">
+
+                                            <TextView
+                                                android:id="@+id/cover_me_in_sunshine_ek5"
+                                                android:layout_width="175dp"
+                                                android:layout_height="27dp"
+                                                android:layout_marginLeft="0dp"
+                                                android:layout_marginTop="0dp"
+                                                android:text="@string/cover_me_in_sunshine_ek5_string"
+                                                android:textColor="@color/sad_ek3_color"
+                                                android:textSize="14sp"
+                                                android:textStyle="bold" />
+
+                                            <TextView
+                                                android:id="@+id/pink___willow_sage_hart_ek5"
+                                                android:layout_width="136dp"
+                                                android:layout_height="19dp"
+                                                android:layout_marginLeft="0dp"
+                                                android:layout_marginTop="20dp"
+                                                android:text="@string/pink___willow_sage_hart_ek5_string"
+                                                android:textColor="@color/sad_ek3_color" />
+
+                                        </RelativeLayout>
+
+                                    </RelativeLayout>
+
+                                </RelativeLayout>
+
+                            </RelativeLayout>
+
+                        </RelativeLayout>
+
+                    </RelativeLayout>
+
+                </RelativeLayout>
+
+            </RelativeLayout>
+        </RelativeLayout>
+
+    </ScrollView>
+</HorizontalScrollView>

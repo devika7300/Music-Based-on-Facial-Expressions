@@ -1,0 +1,501 @@
+<HorizontalScrollView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent" android:layout_height="wrap_content" >
+
+    <ScrollView android:id="@+id/disgust"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent" >
+
+        <RelativeLayout android:id="@+id/content_container"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+
+
+            <RelativeLayout android:id="@+id/page_sad_ek1"
+                android:layout_marginTop="0dp"
+                android:layout_marginStart="0dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                >
+
+                <View
+                    android:id="@+id/_bg__sad_ek2"
+                    android:layout_width="500dp"
+                    android:layout_height="800dp"
+                    android:layout_marginStart="0dp"
+                    android:layout_marginTop="0dp"
+                    android:background="@drawable/disgustedui" />
+
+                <TextView
+                    android:id="@+id/sad_ek3"
+                    android:layout_width="385dp"
+                    android:layout_height="82dp"
+                    android:layout_alignParentTop="true"
+                    android:layout_gravity="center_horizontal|center"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="25dp"
+                    android:fontFamily="@font/lobster"
+                    android:gravity="center"
+                    android:text="Disgusted"
+                    android:textColor="@color/sad_ek3_color"
+                    android:textSize="40sp" />
+
+                <RelativeLayout
+                    android:id="@+id/group_5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="68dp"
+                    android:layout_marginTop="111dp">
+
+
+                    <RelativeLayout
+                        android:id="@+id/group_2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="0dp">
+
+
+                        <ImageView
+                            android:id="@+id/rectangle_1"
+                            android:layout_width="72dp"
+                            android:layout_height="67dp"
+                            android:layout_marginStart="0dp"
+                            android:layout_marginTop="0dp"
+                            android:contentDescription="rectangle_1"
+                            android:src="@drawable/dis1" />
+
+                        <RelativeLayout
+                            android:id="@+id/group_1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="88dp"
+                            android:layout_marginTop="16dp">
+
+                            <TextView
+                                android:id="@+id/cover_me_in_sunshine"
+                                android:layout_width="175dp"
+                                android:layout_height="27dp"
+                                android:layout_marginLeft="0dp"
+                                android:layout_marginTop="0dp"
+                                android:text="Bad Liar"
+                                android:textColor="@color/sad_ek3_color"
+                                android:textSize="14sp"
+                                android:textStyle="bold" />
+
+                            <TextView
+                                android:id="@+id/pink___willow_sage_hart"
+                                android:layout_width="136dp"
+                                android:layout_height="19dp"
+                                android:layout_marginLeft="0dp"
+                                android:layout_marginTop="20dp"
+                                android:text="Selena Gomez"
+                                android:textColor="@color/sad_ek3_color" />
+
+                        </RelativeLayout>
+
+                    </RelativeLayout>
+
+
+                    <RelativeLayout
+                        android:id="@+id/group_3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="0dp"
+                        android:layout_marginTop="80dp">
+
+                        <View
+                            android:id="@+id/rectangle_1_ek1"
+                            android:layout_width="72dp"
+                            android:layout_height="67dp"
+                            android:layout_marginStart="0dp"
+                            android:layout_marginTop="0dp"
+                            android:background="@drawable/rectangle_1_ek1_shape" />
+
+
+                        <RelativeLayout
+                            android:id="@+id/group_1_ek1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="88dp"
+                            android:layout_marginTop="16dp">
+
+                            <TextView
+                                android:id="@+id/cover_me_in_sunshine_ek1"
+                                android:layout_width="175dp"
+                                android:layout_height="27dp"
+                                android:layout_marginLeft="0dp"
+                                android:layout_marginTop="0dp"
+                                android:text="What the Hell"
+                                android:textColor="@color/sad_ek3_color"
+                                android:textSize="14sp"
+                                android:textStyle="bold" />
+
+                            <TextView
+                                android:id="@+id/pink___willow_sage_hart_ek1"
+                                android:layout_width="136dp"
+                                android:layout_height="19dp"
+                                android:layout_marginLeft="0dp"
+                                android:layout_marginTop="20dp"
+                                android:text="Avril Lavigne"
+                                android:textColor="@color/sad_ek3_color" />
+
+                        </RelativeLayout>
+
+
+                        <RelativeLayout
+                            android:id="@+id/group_2_ek1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="0dp"
+                            android:layout_marginTop="76dp">
+
+                            <View
+                                android:id="@+id/rectangle_1_ek2"
+                                android:layout_width="72dp"
+                                android:layout_height="67dp"
+                                android:layout_marginStart="0dp"
+                                android:layout_marginTop="0dp"
+                                android:background="@drawable/rectangle_1_ek2_shape" />
+
+
+                            <RelativeLayout
+                                android:id="@+id/group_1_ek2"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginStart="88dp"
+                                android:layout_marginTop="16dp">
+
+                                <TextView
+                                    android:id="@+id/cover_me_in_sunshine_ek2"
+                                    android:layout_width="175dp"
+                                    android:layout_height="27dp"
+                                    android:layout_marginLeft="0dp"
+                                    android:layout_marginTop="0dp"
+                                    android:text="IDGAF"
+                                    android:textColor="@color/sad_ek3_color"
+                                    android:textSize="14sp"
+                                    android:textStyle="bold" />
+
+                                <TextView
+                                    android:id="@+id/pink___willow_sage_hart_ek2"
+                                    android:layout_width="136dp"
+                                    android:layout_height="19dp"
+                                    android:layout_marginLeft="0dp"
+                                    android:layout_marginTop="20dp"
+                                    android:text="Dua Lipa"
+                                    android:textColor="@color/sad_ek3_color" />
+
+                            </RelativeLayout>
+
+
+                            <RelativeLayout
+                                android:id="@+id/group_2_ek2"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginStart="0dp"
+                                android:layout_marginTop="80dp">
+
+                                <View
+                                    android:id="@+id/rectangle_1_ek3"
+                                    android:layout_width="72dp"
+                                    android:layout_height="67dp"
+                                    android:layout_marginStart="0dp"
+                                    android:layout_marginTop="0dp"
+                                    android:background="@drawable/rectangle_1_ek3_shape" />
+
+
+                                <RelativeLayout
+                                    android:id="@+id/group_1_ek3"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginStart="88dp"
+                                    android:layout_marginTop="16dp">
+
+                                    <TextView
+                                        android:id="@+id/cover_me_in_sunshine_ek3"
+                                        android:layout_width="175dp"
+                                        android:layout_height="27dp"
+                                        android:layout_marginLeft="0dp"
+                                        android:layout_marginTop="0dp"
+                                        android:text="Let Me Be Your Lover"
+                                        android:textColor="@color/sad_ek3_color"
+                                        android:textSize="14sp"
+                                        android:textStyle="bold" />
+
+                                    <TextView
+                                        android:id="@+id/pink___willow_sage_hart_ek3"
+                                        android:layout_width="136dp"
+                                        android:layout_height="19dp"
+                                        android:layout_marginLeft="0dp"
+                                        android:layout_marginTop="20dp"
+                                        android:text="Enrique Iglesias"
+                                        android:textColor="@color/sad_ek3_color" />
+
+                                </RelativeLayout>
+
+
+                                <RelativeLayout
+                                    android:id="@+id/group_2_ek3"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginStart="0dp"
+                                    android:layout_marginTop="79dp">
+
+                                    <View
+                                        android:id="@+id/rectangle_1_ek4"
+                                        android:layout_width="72dp"
+                                        android:layout_height="67dp"
+                                        android:layout_marginStart="0dp"
+                                        android:layout_marginTop="0dp"
+                                        android:background="@drawable/rectangle_1_ek3_shape" />
+
+
+                                    <RelativeLayout
+                                        android:id="@+id/group_1_ek4"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginStart="88dp"
+                                        android:layout_marginTop="16dp">
+
+                                        <TextView
+                                            android:id="@+id/cover_me_in_sunshine_ek4"
+                                            android:layout_width="175dp"
+                                            android:layout_height="27dp"
+                                            android:layout_marginLeft="0dp"
+                                            android:layout_marginTop="0dp"
+                                            android:text="Don't Let Me Down"
+                                            android:textColor="@color/sad_ek3_color"
+                                            android:textSize="14sp"
+                                            android:textStyle="bold" />
+
+                                        <TextView
+                                            android:id="@+id/pink___willow_sage_hart_ek4"
+                                            android:layout_width="136dp"
+                                            android:layout_height="19dp"
+                                            android:layout_marginLeft="0dp"
+                                            android:layout_marginTop="20dp"
+                                            android:text="The Chainsmokers"
+                                            android:textColor="@color/sad_ek3_color" />
+
+                                    </RelativeLayout>
+
+
+                                    <RelativeLayout
+                                        android:id="@+id/group_2_ek4"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginStart="0dp"
+                                        android:layout_marginTop="78dp">
+
+                                        <RelativeLayout
+                                            android:id="@+id/group_2_ek4"
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:layout_marginStart="0dp"
+                                            android:layout_marginTop="78dp">
+
+                                            <RelativeLayout
+                                                android:id="@+id/group_2_ek4"
+                                                android:layout_width="wrap_content"
+                                                android:layout_height="wrap_content"
+                                                android:layout_marginStart="0dp"
+                                                android:layout_marginTop="78dp">
+
+                                                <View
+                                                    android:id="@+id/rectangle_1_ek5"
+                                                    android:layout_width="72dp"
+                                                    android:layout_height="67dp"
+                                                    android:layout_marginStart="0dp"
+                                                    android:layout_marginTop="0dp"
+                                                    android:background="@drawable/rectangle_1_ek3_shape" />
+
+
+                                                <RelativeLayout
+                                                    android:id="@+id/group_1_ek5"
+                                                    android:layout_width="wrap_content"
+                                                    android:layout_height="wrap_content"
+                                                    android:layout_marginStart="88dp"
+                                                    android:layout_marginTop="16dp">
+
+                                                    <TextView
+                                                        android:id="@+id/cover_me_in_sunshine_ek5"
+                                                        android:layout_width="175dp"
+                                                        android:layout_height="27dp"
+                                                        android:layout_marginLeft="0dp"
+                                                        android:layout_marginTop="0dp"
+                                                        android:text="Sucker"
+                                                        android:textColor="@color/sad_ek3_color"
+                                                        android:textSize="14sp"
+                                                        android:textStyle="bold" />
+
+                                                    <TextView
+                                                        android:id="@+id/pink___willow_sage_hart_ek5"
+                                                        android:layout_width="136dp"
+                                                        android:layout_height="19dp"
+                                                        android:layout_marginLeft="0dp"
+                                                        android:layout_marginTop="20dp"
+                                                        android:text="Jonas Brothers"
+                                                        android:textColor="@color/sad_ek3_color" />
+
+                                                </RelativeLayout>
+
+                                                <ImageView
+                                                    android:id="@+id/rectangle_26"
+                                                    android:layout_width="72dp"
+                                                    android:layout_height="67dp"
+                                                    android:layout_marginStart="0dp"
+                                                    android:layout_marginTop="0dp"
+                                                    android:contentDescription="rectangle_1"
+                                                    android:src="@drawable/dis8" />
+
+                                            </RelativeLayout>
+
+                                            <View
+                                                android:id="@+id/rectangle_1_ek5"
+                                                android:layout_width="72dp"
+                                                android:layout_height="67dp"
+                                                android:layout_marginStart="0dp"
+                                                android:layout_marginTop="0dp"
+                                                android:background="@drawable/rectangle_1_ek3_shape" />
+
+
+                                            <RelativeLayout
+                                                android:id="@+id/group_1_ek5"
+                                                android:layout_width="wrap_content"
+                                                android:layout_height="wrap_content"
+                                                android:layout_marginStart="88dp"
+                                                android:layout_marginTop="16dp">
+
+                                                <TextView
+                                                    android:id="@+id/cover_me_in_sunshine_ek5"
+                                                    android:layout_width="175dp"
+                                                    android:layout_height="27dp"
+                                                    android:layout_marginLeft="0dp"
+                                                    android:layout_marginTop="0dp"
+                                                    android:text="Firework"
+                                                    android:textColor="@color/sad_ek3_color"
+                                                    android:textSize="14sp"
+                                                    android:textStyle="bold" />
+
+                                                <TextView
+                                                    android:id="@+id/pink___willow_sage_hart_ek5"
+                                                    android:layout_width="136dp"
+                                                    android:layout_height="19dp"
+                                                    android:layout_marginLeft="0dp"
+                                                    android:layout_marginTop="20dp"
+                                                    android:text="Katy Perry"
+                                                    android:textColor="@color/sad_ek3_color" />
+
+                                            </RelativeLayout>
+
+                                            <ImageView
+                                                android:id="@+id/rectangle_25"
+                                                android:layout_width="72dp"
+                                                android:layout_height="67dp"
+                                                android:layout_marginStart="0dp"
+                                                android:layout_marginTop="0dp"
+                                                android:contentDescription="rectangle_1"
+                                                android:src="@drawable/dis7" />
+
+                                        </RelativeLayout>
+
+                                        <View
+                                            android:id="@+id/rectangle_1_ek5"
+                                            android:layout_width="72dp"
+                                            android:layout_height="67dp"
+                                            android:layout_marginStart="0dp"
+                                            android:layout_marginTop="0dp"
+                                            android:background="@drawable/rectangle_1_ek3_shape" />
+
+
+                                        <RelativeLayout
+                                            android:id="@+id/group_1_ek5"
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:layout_marginStart="88dp"
+                                            android:layout_marginTop="16dp">
+
+                                            <TextView
+                                                android:id="@+id/cover_me_in_sunshine_ek5"
+                                                android:layout_width="175dp"
+                                                android:layout_height="27dp"
+                                                android:layout_marginLeft="0dp"
+                                                android:layout_marginTop="0dp"
+                                                android:text="We Are Never Ever Getting Back Together"
+                                                android:textColor="@color/sad_ek3_color"
+                                                android:textSize="14sp"
+                                                android:textStyle="bold" />
+
+                                            <TextView
+                                                android:id="@+id/pink___willow_sage_hart_ek5"
+                                                android:layout_width="136dp"
+                                                android:layout_height="19dp"
+                                                android:layout_marginLeft="0dp"
+                                                android:layout_marginTop="20dp"
+                                                android:text="Taylor Swift"
+                                                android:textColor="@color/sad_ek3_color" />
+
+                                        </RelativeLayout>
+
+                                        <ImageView
+                                            android:id="@+id/rectangle_24"
+                                            android:layout_width="72dp"
+                                            android:layout_height="67dp"
+                                            android:layout_marginStart="0dp"
+                                            android:layout_marginTop="0dp"
+                                            android:contentDescription="rectangle_1"
+                                            android:src="@drawable/dis6" />
+
+                                    </RelativeLayout>
+
+                                    <ImageView
+                                        android:id="@+id/rectangle_23"
+                                        android:layout_width="72dp"
+                                        android:layout_height="67dp"
+                                        android:layout_marginStart="0dp"
+                                        android:layout_marginTop="0dp"
+                                        android:contentDescription="rectangle_1"
+                                        android:src="@drawable/dis5" />
+
+                                </RelativeLayout>
+
+                                <ImageView
+                                    android:id="@+id/rectangle_22"
+                                    android:layout_width="72dp"
+                                    android:layout_height="67dp"
+                                    android:layout_marginStart="0dp"
+                                    android:layout_marginTop="0dp"
+                                    android:contentDescription="rectangle_1"
+                                    android:src="@drawable/dis4" />
+
+                            </RelativeLayout>
+
+                            <ImageView
+                                android:id="@+id/rectangle_21"
+                                android:layout_width="72dp"
+                                android:layout_height="67dp"
+                                android:layout_marginStart="0dp"
+                                android:layout_marginTop="0dp"
+                                android:contentDescription="rectangle_1"
+                                android:src="@drawable/dis3" />
+
+                        </RelativeLayout>
+
+                        <ImageView
+                            android:id="@+id/rectangle_20"
+                            android:layout_width="72dp"
+                            android:layout_height="67dp"
+                            android:layout_marginStart="0dp"
+                            android:layout_marginTop="0dp"
+                            android:contentDescription="rectangle_1"
+                            android:src="@drawable/dis2" />
+
+                    </RelativeLayout>
+
+                </RelativeLayout>
+
+            </RelativeLayout>
+        </RelativeLayout>
+
+    </ScrollView>
+</HorizontalScrollView>

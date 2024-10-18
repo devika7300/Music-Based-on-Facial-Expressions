@@ -1,0 +1,504 @@
+<HorizontalScrollView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent" android:layout_height="wrap_content" >
+
+    <ScrollView android:id="@+id/sad"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent" >
+
+        <RelativeLayout android:id="@+id/content_container"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+
+
+            <RelativeLayout android:id="@+id/page_sad_ek1"
+                android:layout_marginTop="0dp"
+                android:layout_marginStart="0dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                >
+
+                <View
+                    android:id="@+id/_bg__sad_ek2"
+                    android:layout_width="500dp"
+                    android:layout_height="800dp"
+                    android:layout_marginStart="0dp"
+                    android:layout_marginTop="0dp"
+                    android:background="@drawable/sadui" />
+
+                <TextView
+                    android:id="@+id/sad_ek3"
+                    android:layout_width="385dp"
+                    android:layout_height="82dp"
+                    android:layout_alignParentTop="true"
+                    android:layout_gravity="center_horizontal|center"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="25dp"
+                    android:fontFamily="@font/lobster"
+                    android:gravity="center"
+                    android:text="@string/sad_ek3_string"
+                    android:textColor="@color/sad_ek3_color"
+                    android:textSize="40sp" />
+
+                <RelativeLayout
+                    android:id="@+id/group_5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="68dp"
+                    android:layout_marginTop="111dp">
+
+
+                    <RelativeLayout
+                        android:id="@+id/group_1_1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="0dp">
+
+                        <ImageView
+                            android:id="@+id/rectangle_1"
+                            android:layout_width="72dp"
+                            android:layout_height="67dp"
+                            android:layout_marginStart="0dp"
+                            android:layout_marginTop="0dp"
+                            android:contentDescription="rectangle_1"
+                            android:src="@drawable/sad11" />
+
+
+                        <RelativeLayout
+                            android:id="@+id/group_1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="88dp"
+                            android:layout_marginTop="16dp">
+
+                            <TextView
+                                android:id="@+id/cover_me_in_sunshine"
+                                android:layout_width="175dp"
+                                android:layout_height="27dp"
+                                android:layout_marginLeft="0dp"
+                                android:layout_marginTop="0dp"
+                                android:text="Night Changes"
+                                android:textColor="@color/sad_ek3_color"
+                                android:textSize="14sp"
+                                android:textStyle="bold" />
+
+                            <TextView
+                                android:id="@+id/pink___willow_sage_hart"
+                                android:layout_width="136dp"
+                                android:layout_height="19dp"
+                                android:layout_marginLeft="0dp"
+                                android:layout_marginTop="20dp"
+                                android:text="One Direction"
+                                android:textColor="@color/sad_ek3_color" />
+
+                        </RelativeLayout>
+
+                    </RelativeLayout>
+
+
+                    <RelativeLayout
+                        android:id="@+id/group_3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="0dp"
+                        android:layout_marginTop="80dp">
+
+                        <View
+                            android:id="@+id/rectangle_1_ek1"
+                            android:layout_width="72dp"
+                            android:layout_height="67dp"
+                            android:layout_marginStart="0dp"
+                            android:layout_marginTop="0dp"
+                            android:background="@drawable/rectangle_1_ek1_shape" />
+
+
+                        <RelativeLayout
+                            android:id="@+id/group_1_ek1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="88dp"
+                            android:layout_marginTop="16dp">
+
+                            <TextView
+                                android:id="@+id/cover_me_in_sunshine_ek1"
+                                android:layout_width="175dp"
+                                android:layout_height="27dp"
+                                android:layout_marginLeft="0dp"
+                                android:layout_marginTop="0dp"
+                                android:text="Tired"
+                                android:textColor="@color/sad_ek3_color"
+                                android:textSize="14sp"
+                                android:textStyle="bold" />
+
+                            <TextView
+                                android:id="@+id/pink___willow_sage_hart_ek1"
+                                android:layout_width="136dp"
+                                android:layout_height="19dp"
+                                android:layout_marginLeft="0dp"
+                                android:layout_marginTop="20dp"
+                                android:text="Alan Walker"
+                                android:textColor="@color/sad_ek3_color" />
+
+                        </RelativeLayout>
+
+
+                        <RelativeLayout
+                            android:id="@+id/group_2_ek1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="0dp"
+                            android:layout_marginTop="76dp">
+
+                            <View
+                                android:id="@+id/rectangle_1_ek2"
+                                android:layout_width="72dp"
+                                android:layout_height="67dp"
+                                android:layout_marginStart="0dp"
+                                android:layout_marginTop="0dp"
+                                android:background="@drawable/rectangle_1_ek2_shape" />
+
+
+                            <RelativeLayout
+                                android:id="@+id/group_1_ek2"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginStart="88dp"
+                                android:layout_marginTop="16dp">
+
+                                <TextView
+                                    android:id="@+id/cover_me_in_sunshine_ek2"
+                                    android:layout_width="175dp"
+                                    android:layout_height="27dp"
+                                    android:layout_marginLeft="0dp"
+                                    android:layout_marginTop="0dp"
+                                    android:text="Let It Go"
+                                    android:textColor="@color/sad_ek3_color"
+                                    android:textSize="14sp"
+                                    android:textStyle="bold" />
+
+                                <TextView
+                                    android:id="@+id/pink___willow_sage_hart_ek2"
+                                    android:layout_width="136dp"
+                                    android:layout_height="19dp"
+                                    android:layout_marginLeft="0dp"
+                                    android:layout_marginTop="20dp"
+                                    android:text="Demi Lovato"
+                                    android:textColor="@color/sad_ek3_color" />
+
+                            </RelativeLayout>
+
+
+                            <RelativeLayout
+                                android:id="@+id/group_2_ek2"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginStart="0dp"
+                                android:layout_marginTop="80dp">
+
+                                <View
+                                    android:id="@+id/rectangle_1_ek3"
+                                    android:layout_width="72dp"
+                                    android:layout_height="67dp"
+                                    android:layout_marginStart="0dp"
+                                    android:layout_marginTop="0dp"
+                                    android:background="@drawable/rectangle_1_ek3_shape" />
+
+
+                                <RelativeLayout
+                                    android:id="@+id/group_1_ek3"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginStart="88dp"
+                                    android:layout_marginTop="16dp">
+
+                                    <TextView
+                                        android:id="@+id/cover_me_in_sunshine_ek3"
+                                        android:layout_width="175dp"
+                                        android:layout_height="27dp"
+                                        android:layout_marginLeft="0dp"
+                                        android:layout_marginTop="0dp"
+                                        android:text="Best Thing I Never Had"
+                                        android:textColor="@color/sad_ek3_color"
+                                        android:textSize="14sp"
+                                        android:textStyle="bold" />
+
+                                    <TextView
+                                        android:id="@+id/pink___willow_sage_hart_ek3"
+                                        android:layout_width="136dp"
+                                        android:layout_height="19dp"
+                                        android:layout_marginLeft="0dp"
+                                        android:layout_marginTop="20dp"
+                                        android:text="Beyoncé"
+                                        android:textColor="@color/sad_ek3_color" />
+
+                                </RelativeLayout>
+
+
+                                <RelativeLayout
+                                    android:id="@+id/group_2_ek3"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginStart="0dp"
+                                    android:layout_marginTop="79dp">
+
+                                    <RelativeLayout
+                                        android:id="@+id/group_2_ek3"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginStart="0dp"
+                                        android:layout_marginTop="79dp">
+
+                                        <RelativeLayout
+                                            android:id="@+id/group_2_ek3"
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:layout_marginStart="0dp"
+                                            android:layout_marginTop="79dp">
+
+                                            <RelativeLayout
+                                                android:id="@+id/group_2_ek3"
+                                                android:layout_width="wrap_content"
+                                                android:layout_height="wrap_content"
+                                                android:layout_marginStart="0dp"
+                                                android:layout_marginTop="79dp">
+
+                                                <View
+                                                    android:id="@+id/rectangle_1_ek4"
+                                                    android:layout_width="72dp"
+                                                    android:layout_height="67dp"
+                                                    android:layout_marginStart="0dp"
+                                                    android:layout_marginTop="0dp"
+                                                    android:background="@drawable/rectangle_1_ek3_shape" />
+
+
+                                                <RelativeLayout
+                                                    android:id="@+id/group_1_ek4"
+                                                    android:layout_width="wrap_content"
+                                                    android:layout_height="wrap_content"
+                                                    android:layout_marginStart="88dp"
+                                                    android:layout_marginTop="16dp">
+
+                                                    <TextView
+                                                        android:id="@+id/cover_me_in_sunshine_ek4"
+                                                        android:layout_width="175dp"
+                                                        android:layout_height="27dp"
+                                                        android:layout_marginLeft="0dp"
+                                                        android:layout_marginTop="0dp"
+                                                        android:text="We Don't Talk Anymore"
+                                                        android:textColor="@color/sad_ek3_color"
+                                                        android:textSize="14sp"
+                                                        android:textStyle="bold" />
+
+                                                    <TextView
+                                                        android:id="@+id/pink___willow_sage_hart_ek4"
+                                                        android:layout_width="136dp"
+                                                        android:layout_height="19dp"
+                                                        android:layout_marginLeft="0dp"
+                                                        android:layout_marginTop="20dp"
+                                                        android:text="Charlie Puth"
+                                                        android:textColor="@color/sad_ek3_color" />
+
+                                                </RelativeLayout>
+
+
+                                                <ImageView
+                                                    android:id="@+id/rectangle_12"
+                                                    android:layout_width="72dp"
+                                                    android:layout_height="67dp"
+                                                    android:layout_marginStart="0dp"
+                                                    android:layout_marginTop="0dp"
+                                                    android:contentDescription="rectangle_1"
+                                                    android:src="@drawable/sad8" />
+
+                                            </RelativeLayout>
+
+                                            <View
+                                                android:id="@+id/rectangle_1_ek4"
+                                                android:layout_width="72dp"
+                                                android:layout_height="67dp"
+                                                android:layout_marginStart="0dp"
+                                                android:layout_marginTop="0dp"
+                                                android:background="@drawable/rectangle_1_ek3_shape" />
+
+
+                                            <RelativeLayout
+                                                android:id="@+id/group_1_ek4"
+                                                android:layout_width="wrap_content"
+                                                android:layout_height="wrap_content"
+                                                android:layout_marginStart="88dp"
+                                                android:layout_marginTop="16dp">
+
+                                                <TextView
+                                                    android:id="@+id/cover_me_in_sunshine_ek4"
+                                                    android:layout_width="175dp"
+                                                    android:layout_height="27dp"
+                                                    android:layout_marginLeft="0dp"
+                                                    android:layout_marginTop="0dp"
+                                                    android:text="See You Again "
+                                                    android:textColor="@color/sad_ek3_color"
+                                                    android:textSize="14sp"
+                                                    android:textStyle="bold" />
+
+                                                <TextView
+                                                    android:id="@+id/pink___willow_sage_hart_ek4"
+                                                    android:layout_width="136dp"
+                                                    android:layout_height="19dp"
+                                                    android:layout_marginLeft="0dp"
+                                                    android:layout_marginTop="20dp"
+                                                    android:text="Wiz Khalifa"
+                                                    android:textColor="@color/sad_ek3_color" />
+
+                                            </RelativeLayout>
+
+
+                                            <ImageView
+                                                android:id="@+id/rectangle_12"
+                                                android:layout_width="72dp"
+                                                android:layout_height="67dp"
+                                                android:layout_marginStart="0dp"
+                                                android:layout_marginTop="0dp"
+                                                android:contentDescription="rectangle_1"
+                                                android:src="@drawable/sad7" />
+
+                                        </RelativeLayout>
+
+                                        <View
+                                            android:id="@+id/rectangle_1_ek4"
+                                            android:layout_width="72dp"
+                                            android:layout_height="67dp"
+                                            android:layout_marginStart="0dp"
+                                            android:layout_marginTop="0dp"
+                                            android:background="@drawable/rectangle_1_ek3_shape" />
+
+
+                                        <RelativeLayout
+                                            android:id="@+id/group_1_ek4"
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:layout_marginStart="88dp"
+                                            android:layout_marginTop="16dp">
+
+                                            <TextView
+                                                android:id="@+id/cover_me_in_sunshine_ek4"
+                                                android:layout_width="175dp"
+                                                android:layout_height="27dp"
+                                                android:layout_marginLeft="0dp"
+                                                android:layout_marginTop="0dp"
+                                                android:text="Pillowtalk"
+                                                android:textColor="@color/sad_ek3_color"
+                                                android:textSize="14sp"
+                                                android:textStyle="bold" />
+
+                                            <TextView
+                                                android:id="@+id/pink___willow_sage_hart_ek4"
+                                                android:layout_width="136dp"
+                                                android:layout_height="19dp"
+                                                android:layout_marginLeft="0dp"
+                                                android:layout_marginTop="20dp"
+                                                android:text="Zayn"
+                                                android:textColor="@color/sad_ek3_color" />
+
+                                        </RelativeLayout>
+
+
+                                        <ImageView
+                                            android:id="@+id/rectangle_12"
+                                            android:layout_width="72dp"
+                                            android:layout_height="67dp"
+                                            android:layout_marginStart="0dp"
+                                            android:layout_marginTop="0dp"
+                                            android:contentDescription="rectangle_1"
+                                            android:src="@drawable/sad6" />
+
+                                    </RelativeLayout>
+
+                                    <View
+                                        android:id="@+id/rectangle_1_ek4"
+                                        android:layout_width="72dp"
+                                        android:layout_height="67dp"
+                                        android:layout_marginStart="0dp"
+                                        android:layout_marginTop="0dp"
+                                        android:background="@drawable/rectangle_1_ek3_shape" />
+
+
+                                    <RelativeLayout
+                                        android:id="@+id/group_1_ek4"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginStart="88dp"
+                                        android:layout_marginTop="16dp">
+
+                                        <TextView
+                                            android:id="@+id/cover_me_in_sunshine_ek4"
+                                            android:layout_width="175dp"
+                                            android:layout_height="27dp"
+                                            android:layout_marginLeft="0dp"
+                                            android:layout_marginTop="0dp"
+                                            android:text="Perfect Duet"
+                                            android:textColor="@color/sad_ek3_color"
+                                            android:textSize="14sp"
+                                            android:textStyle="bold" />
+
+                                        <TextView
+                                            android:id="@+id/pink___willow_sage_hart_ek4"
+                                            android:layout_width="136dp"
+                                            android:layout_height="19dp"
+                                            android:layout_marginLeft="0dp"
+                                            android:layout_marginTop="20dp"
+                                            android:text="Ed Sheeran"
+                                            android:textColor="@color/sad_ek3_color" />
+
+                                    </RelativeLayout>
+
+
+                                    <ImageView
+                                        android:id="@+id/rectangle_12"
+                                        android:layout_width="72dp"
+                                        android:layout_height="67dp"
+                                        android:layout_marginStart="0dp"
+                                        android:layout_marginTop="0dp"
+                                        android:contentDescription="rectangle_1"
+                                        android:src="@drawable/sad5" />
+
+                                </RelativeLayout>
+
+                                <ImageView
+                                    android:id="@+id/rectangle_11"
+                                    android:layout_width="72dp"
+                                    android:layout_height="67dp"
+                                    android:layout_marginStart="0dp"
+                                    android:layout_marginTop="0dp"
+                                    android:contentDescription="rectangle_1"
+                                    android:src="@drawable/sad4" />
+
+                            </RelativeLayout>
+
+                            <ImageView
+                                android:id="@+id/rectangle_10"
+                                android:layout_width="72dp"
+                                android:layout_height="67dp"
+                                android:layout_marginStart="0dp"
+                                android:layout_marginTop="0dp"
+                                android:contentDescription="rectangle_1"
+                                android:src="@drawable/sad3" />
+
+                        </RelativeLayout>
+
+                        <ImageView
+                            android:id="@+id/rectangle_9"
+                            android:layout_width="72dp"
+                            android:layout_height="67dp"
+                            android:layout_marginStart="0dp"
+                            android:layout_marginTop="0dp"
+                            android:contentDescription="rectangle_1"
+                            android:src="@drawable/sad2" />
+
+                    </RelativeLayout>
+
+                </RelativeLayout>
+
+            </RelativeLayout>
+        </RelativeLayout>
+
+    </ScrollView>
+</HorizontalScrollView>
