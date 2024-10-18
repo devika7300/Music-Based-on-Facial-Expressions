@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">MusicRecommendation</string>
+
+    <string name="ek_img_content">ExportKit Image</string>
+    <string name="sad_ek3_string">Sad</string>
+    <string name="cover_me_in_sunshine_string">Cover Me In Sunshine</string>
+    <string name="pink___willow_sage_hart_string">Pink &amp; Willow Sage Hart</string>
+    <string name="cover_me_in_sunshine_ek1_string">Cover Me In Sunshine</string>
+    <string name="pink___willow_sage_hart_ek1_string">Pink &amp; Willow Sage Hart</string>
+    <string name="cover_me_in_sunshine_ek2_string">Cover Me In Sunshine</string>
+    <string name="pink___willow_sage_hart_ek2_string">Pink &amp; Willow Sage Hart</string>
+    <string name="cover_me_in_sunshine_ek3_string">Cover Me In Sunshine</string>
+    <string name="pink___willow_sage_hart_ek3_string">Pink &amp; Willow Sage Hart</string>
+    <string name="cover_me_in_sunshine_ek4_string">Cover Me In Sunshine</string>
+    <string name="pink___willow_sage_hart_ek4_string">Pink &amp; Willow Sage Hart</string>
+    <string name="cover_me_in_sunshine_ek5_string">Cover Me In Sunshine</string>
+    <string name="pink___willow_sage_hart_ek5_string">Pink &amp; Willow Sage Hart</string>
+</resources>
